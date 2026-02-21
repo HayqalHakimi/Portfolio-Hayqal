@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML hayqal</h1>
+        <nav>
+            <ul>
+                <li><a href="#tips-kesihatan">Tips Kesihatan</a></li>
+                <li><a href="#jadual-ergonamik">Jadual Ergonamik</a></li>
+                <li><a href="#maklum-balas">Maklum Balas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tips-kesihatan">
+            <h2>Tips Kesihatan</h2>
+            <p><strong>Cara pegang mouse dengan betul:</strong></p>
+            <ul>
+                <li>Pegang mouse dengan tangan yang selesa.</li>
+                <li>Jangan pegang mouse terlalu ketat.</li>
+                <li>Pastikan tangan anda bersih dan kering.</li>
+            </ul>
+            <p><strong>Cara duduk dengan betul:</strong></p>
+            <ul>
+                <li>Duduk dalam keadaan badan tegak dan selesa.</li>
+                <li>Duduk di kerusi yang ideal untuk kerja komputer.</li>
+            </ul>
+        </section>
+
+        <section id="jadual-ergonamik">
+            <h2>Jadual Ergonamik</h2>
+            <table border="1">
+                <caption>Peralatan rekomendasi</caption>
+                <tr>
+                    <th>Nama Peralatan</th>
+                    <th>Penjelasan</th>
+                    <th>Gambar</th>
+                    <th>Harga</th>
+                </tr>
+
+                <tr>
+                    <td>Mouse</td>
+                    <td>Mouse ergonomik yang sesuai untuk penggunaan komputer</td>
+                    <td><img src="image/mouse-ergonomik.jpg" alt="Mouse Ergonomik yang bagus" width="100"></td>
+                    <td>RM 150 <em>(anggaran)</em></td>
+                </tr>
+
+                <tr>
+                    <td>Kerusi</td>
+                    <td>Kerusi ergonomik yang sesuai untuk duduk dalam waktu yang lama dan dpt ubah ubah kedudukan dgn
+                        flexible</td>
+                    <td><img src="image/kerusi-ergonomik.jpg" alt="Kerusi ergonomik yang amat selesa" width="100"></td>
+                    <td>RM 350 <em>(anggaran)</em></td>
+                </tr>
+
+                <tr>
+                    <td>Meja</td>
+                    <td>Meja ergonomik yang sesuai untuk kerja komputer yang dapat ubah kedudkan dan lembut jika letak
+                        tangan</td>
+                    <td><img src="image/meja-ergonomik.jpg"
+                            alt="Meja ergonomik yang selesa dapat ubah ubah tinggi rendah" width="100"></td>
+                    <td>RM 900 <em>(anggaran)</em></td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><strong>Jumlah Keseluruhan:</strong></td>
+                        <td>RM 1400</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <form>
+            <section id="maklum-balas">
+                <h2>Borang kesedaran kesihatan</h2>
+                <label for="nama-sendiri">Nama: </label>
+                <input type="text" id="nama-sendiri" name="nama-sendiri" placeholder="Isi nama disini" required>
+
+                <fieldset>
+                    <legend>Jenis penyakit</legend>
+                    <input type="checkbox" id="sakit-pinggang" name="jenis-penyakit" value="sakit-pinggang">
+                    <label for="sakit-pinggang">Sakit Pinggang</label>
+                    <input type="checkbox" id="sakit-leher" name="jenis-penyakit" value="sakit-leher">
+                    <label for="sakit-leher">Sakit Leher</label>
+                    <input type="checkbox" id="sakit-tangan" name="jenis-penyakit" value="sakit-tangan">
+                    <label for="sakit-tangan">Sakit Tangan</label>
+                    <input type="checkbox" id="sakit-bahu" name="jenis-penyakit" value="sakit-bahu">
+                    <label for="sakit-bahu">Sakit Bahu</label>
+                </fieldset>
+            </section>
+            <button type="submit" value="Hantar">Hantar</button>
+        </form>
+        <footer>
+            <p>&copy; 2026 Kesihatan Digital. Hak Cipta Eqal.</p>
+        </footer>
+    </main>
+</body>
+
+</html>

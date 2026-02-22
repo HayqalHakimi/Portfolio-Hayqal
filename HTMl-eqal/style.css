@@ -1,0 +1,10 @@
+#tips-kesihatan {
+    background-color: hsl(216, 24%, 96%);
+    text-align: center;
+}
+
+#tips-kesihatan ul {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}

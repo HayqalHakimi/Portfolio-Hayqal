@@ -8,3 +8,30 @@
     text-align: center;
     padding: 0;
 }
+
+/* Kita hias keseluruhan jadual */
+table {
+    width: 100%;
+    /* Cuba penuhi lebar skrin */
+    max-width: 800px;
+    /* TAPI, jangan lebih besar dari 800px supaya tak nampak pelik di skrin besar */
+    margin: 20px auto;
+    /* Letakkan jadual di tengah-tengah halaman */
+    border-collapse: collapse;
+}
+
+/* Kita hias kotak (cell) dalam jadual */
+th,
+td {
+    border: 1px solid #0056b3;
+    /* Warna biru hospital awak */
+    padding: 15px;
+    text-align: left;
+}
+
+/* Kita tetapkan saiz minimum untuk ruangan 'Nama Peralatan' */
+td:first-child {
+    min-width: 150px;
+    /* Pastikan ruangan 'Mouse' atau 'Kerusi' tak jadi terlalu sempit */
+    font-weight: bold;
+}
